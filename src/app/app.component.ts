@@ -12,5 +12,4 @@ import { SubscriptionComponent } from './subscription/subscription.component';
   ],
 })
 export class AppComponent {
-  title = 'angular-form-extension-demo';
 }
