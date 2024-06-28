@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AngularFormExtensionComponent } from 'angular-form-extension';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AngularFormExtensionComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  imports: [
+    RouterOutlet,
+    SubscriptionComponent
+  ],
 })
 export class AppComponent {
-  title = 'angular-form-extension';
+  title = 'angular-form-extension-demo';
 }
